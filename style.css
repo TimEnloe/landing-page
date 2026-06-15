@@ -25,6 +25,7 @@ body {
     font-size: 10px;
     color: dimgray;
     margin-top: 1rem;
+    margin-left: 10px;
 }
 
 .top-header-link-block ul {
@@ -38,6 +39,7 @@ body {
 .top-header-link-block ul a {
     text-decoration: none;
     color: darkturquoise;
+    margin-right: 10px;
 }
 
 .top-header-part2 {
@@ -46,7 +48,7 @@ body {
     margin: 0 10rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin-top: 30px;
     font-size: 24px;
     font-weight: 800;
@@ -56,6 +58,7 @@ body {
 p {
     width: 300px;
 }
+
 span {
     font-size: 10px;
     color: grey;
@@ -91,6 +94,42 @@ button {
     color: white;
     font-size: 10px;
     padding: 50px;
-    text-align: center;
     width: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.featured-items {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    /* gap: 15px; */
+    justify-content: center;
+    /* margin: 0 10rem; */
+}
+
+.photos {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    height: 100px;
+    font-size: 10px;
+    color: dimgray;
+    /* gap: 15px; */
+
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    /* width: 500px; */
+    max-height: 100px;
+    margin-bottom: 50px;
+    background-color: rgb(167, 167, 167);
+    color: white;
+    font-size: 12px;
+    padding: 50px;
+    margin: 0 10rem;
+    align-items: center;
+}
+
